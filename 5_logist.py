@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix, ConfusionMa
 plt.ion()  # ← لتفعيل الوضع التفاعلي لعرض الرسومات مباشرة
 
 
-data = pd.read_csv(r"D:\Viewer\JORDAN\Ai\folder\my_pint.csv")
+data = pd.read_csv(r"D:\..\pint.csv")
 print(data)
 
 data['sleep_hours'] = [6,5,7,8,6,6,7,5,4,6,7,6,6,8,7]
