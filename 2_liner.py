@@ -12,7 +12,7 @@ columns = [
     'stalk_surface_below_ring','stalk_color_above_ring','stalk_color_below_ring','veil_type',
     'veil_color','ring_number','ring_type','spore_print_color','population','habitat'
 ]
-x = pd.read_csv(r'C:\Users\Lenovo\Downloads\mushroom\agaricus-lepiota.data')
+x = pd.read_csv(r'C:\..\agaricus-lepiota.data')
 df = pd.read_csv(x, header=None, names=columns)
 
 mushroom = fetch_ucirepo(id=73)
